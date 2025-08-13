@@ -1,0 +1,9 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="60" height="60" fill="#4285F4"/>
+  <path d="M15 40 L25 30 L35 25 L45 15" stroke="white" stroke-width="3" fill="none"/>
+  <circle cx="15" cy="40" r="3" fill="white"/>
+  <circle cx="25" cy="30" r="3" fill="white"/>
+  <circle cx="35" cy="25" r="3" fill="white"/>
+  <circle cx="45" cy="15" r="3" fill="white"/>
+  <text x="30" y="53" font-family="Arial" font-size="8" fill="white" text-anchor="middle">TRENDS</text>
+</svg>
