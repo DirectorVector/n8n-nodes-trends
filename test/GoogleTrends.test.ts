@@ -26,7 +26,7 @@ describe('GoogleTrends Node', () => {
 	it('should have all expected operations', () => {
 		const operationProperty = node.description.properties[0];
 		const operations = operationProperty.options?.map((op: any) => op.value) || [];
-		
+
 		expect(operations).toContain('dailyTrends');
 		expect(operations).toContain('realTimeTrends');
 		expect(operations).toContain('trendingArticles');
