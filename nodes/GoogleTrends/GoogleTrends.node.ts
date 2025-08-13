@@ -31,34 +31,16 @@ export class GoogleTrends implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
-						name: 'Daily Trends',
-						value: 'dailyTrends',
-						description: 'Get daily trending topics for a specific region',
-						action: 'Get daily trending topics',
-					},
-					{
-						name: 'Real-Time Trends',
-						value: 'realTimeTrends',
-						description: 'Get real-time trending topics',
-						action: 'Get real-time trending topics',
-					},
-					{
-						name: 'Trending Articles',
-						value: 'trendingArticles',
-						description: 'Get trending articles for specific article keys',
-						action: 'Get trending articles',
-					},
-					{
-						name: 'Interest Over Time',
-						value: 'interestOverTime',
-						description: 'Get interest over time data for a keyword',
-						action: 'Get interest over time',
-					},
-					{
 						name: 'Autocomplete',
 						value: 'autocomplete',
 						description: 'Get search suggestions for a keyword',
 						action: 'Get autocomplete suggestions',
+					},
+					{
+						name: 'Daily Trends',
+						value: 'dailyTrends',
+						description: 'Get daily trending topics for a specific region',
+						action: 'Get daily trending topics',
 					},
 					{
 						name: 'Explore',
@@ -71,6 +53,24 @@ export class GoogleTrends implements INodeType {
 						value: 'interestByRegion',
 						description: 'Get interest data by region',
 						action: 'Get interest by region',
+					},
+					{
+						name: 'Interest Over Time',
+						value: 'interestOverTime',
+						description: 'Get interest over time data for a keyword',
+						action: 'Get interest over time',
+					},
+					{
+						name: 'Real-Time Trends',
+						value: 'realTimeTrends',
+						description: 'Get real-time trending topics',
+						action: 'Get real time trending topics',
+					},
+					{
+						name: 'Trending Articles',
+						value: 'trendingArticles',
+						description: 'Get trending articles for specific article keys',
+						action: 'Get trending articles',
 					},
 				],
 				default: 'dailyTrends',
